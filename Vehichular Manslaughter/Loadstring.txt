@@ -1,0 +1,29 @@
+
+--Required Hat: Any vehichle hat, such as:
+
+--https://web.roblox.com/catalog/4585144193/Elitoria-RN750  (Car)
+--https://web.roblox.com/catalog/4684079842/TONK  (Tank)
+--https://web.roblox.com/catalog/5861465755/Ordinary-Wheelchair  (Wheelchair)
+--https://web.roblox.com/catalog/4753153215/Road-Roller  (Road Roller)
+--https://web.roblox.com/catalog/4771552459/PLEN  (Plane)
+--https://web.roblox.com/catalog/4753601040/BOTE  (Boat)
+
+
+
+
+
+
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Los-3r/Vehicular-Manslaughter/main/Script1.txt'),true))()
+local CoreGui = game:GetService("StarterGui")
+local bindable = Instance.new("BindableFunction")
+
+
+CoreGui:SetCore("SendNotification", {
+	Title = "FE Vehicular Manslaughter",
+	Text = "FE Vehicular Manslaughter Has Loaded Successfully!",
+	Duration = 5,
+	Button1 = "OK!",
+})
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Los-3r/Vehicular-Manslaughter/main/Script2.txt'),true))()
