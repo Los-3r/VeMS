@@ -13,8 +13,7 @@
 
 
 
-
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/Los-3r/VeMS/Vehicular-Manslaughter/main/Script1.txt'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Los-3r/VeMS/main/Vehicular-Manslaughter/Script1.txt'), true))()
 local CoreGui = game:GetService("StarterGui")
 
 
@@ -25,4 +24,4 @@ CoreGui:SetCore("SendNotification", {
 	Button1 = "OK!",
 })
 
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/Los-3r/VeMS/Vehicular-Manslaughter/main/Script2.txt'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Los-3r/VeMS/main/Vehicular-Manslaughter/Script2.txt'), true))()
