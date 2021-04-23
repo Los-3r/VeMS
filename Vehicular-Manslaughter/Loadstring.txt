@@ -10,7 +10,7 @@
 
 
 
-_G.tank = false -- enable if you are using tonk, it will allow you to shoot by pressing right bracket 
+
 
 
 
